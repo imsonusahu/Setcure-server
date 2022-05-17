@@ -1,0 +1,37 @@
+{
+  "name": "electrician-server",
+  "version": "1.0.0",
+  "description": "This is the server of whole silitics project. and contains all api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "Silitics Technology PVT LTD",
+  "license": "ISC",
+  "dependencies": {
+    "aes-encryption": "^1.0.4",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "fast-two-sms": "^3.0.0",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.8",
+    "nodemon": "^2.0.15",
+    "razorpay": "^2.8.1",
+    "socket.io": "^4.4.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/setcure/setcure-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/setcure/setcure-server/issues"
+  },
+  "homepage": "https://github.com/setcure/setcure-server#readme"
+}
